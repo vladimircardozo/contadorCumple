@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    /* background-image: url("../img/fondoContador.webp"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.contenedor {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.fecha span{
+    font-weight: 600;
+}
+
+.cuenta-atras{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.grupo {
+    line-height: 1;
+
+}
+
+.grande {
+    padding: 15px;
+    background-color: rgba(165, 170, 170, 0.521);
+    border-radius: 15%;
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+@media (width < 650px) {
+    .cuenta-atras {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (width < 350px) {
+    .cuenta-atras {
+        display: flex;
+        flex-direction: column;
+    }
+}
