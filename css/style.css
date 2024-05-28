@@ -8,7 +8,7 @@
 }
 
 body {
-    /* background-image: url("../img/fondoContador.webp"); */
+    background-color: rgb(85, 85, 112);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
